@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="SimpleDetector.exe" version="1.0.0.0" publicKeyToken="f3afb2b01f11124f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SimpleDetector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SimpleDetector.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpleDetector.exe" size="1718784">
+      <assemblyIdentity name="SimpleDetector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>qx5plkLsnDS04XE2KsH6f3y41uQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Alert_Sounds\Notify1.wav" size="48988">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pK1nkaAQjBbl15nUF83A9buUsv4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Alert_Sounds\Notify2.wav" size="72016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ENqaN0+od9h5x1OpBkC/EuEqKQo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Alert_Sounds\Notify3.wav" size="43762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4FnJrTEpzyrRFBPdZ4BuidezVtQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Alert_Sounds\Notify4.wav" size="55776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BV4KxiZDwELBc5wzdMxXiPdHRCw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Alert_Sounds\Notify5.wav" size="130224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6fAsaTnRPpvb8bDCaig/7hbXWf4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Wallpaper\alert.bmp" size="1440054">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oFAg+POiW29J1rtEom6KcVinjZk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Wallpaper\wall2.jpg" size="128083">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GjcJ3XV0l9TMkA0rz6MmUrt9tGw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Wallpaper\wall3.jpg" size="103028">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2Kt0QEumokNJA8wkxiKZfwETXCM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Wallpaper\Wall4.jpg" size="79998">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pzfGYhEMp9Tm8bjRY7i8nLVFSQI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Wallpaper\wall5.jpg" size="71682">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>x2JIB9Zye/giEi9hu+J08CdklA4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Wallpaper\wall6.jpg" size="110550">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>K5B5RdZcjqHgGfUbVjF62Zkn3fY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SHREYKUMARJAIN\SHREY KUMAR JAIN" issuerKeyHash="69c9d2496dbed0ed10c40892b5fe6aa3a21cadc8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>hyiZ+TVc5J83UeQBxJ+MiBdaytI=</DigestValue></Reference></SignedInfo><SignatureValue>M/DDa7TG4bufoRaei8tQymhKfQhVe7iewi75fqce1Cy4iT/7CQCFEWcgpWzlQH15bP5S5DvIB4ZFhbqAK4vmBPIaBOwUcH4sHccKTxJ97bqJ04/iFzhuWd8aZLTdAtKIvFhC4OfM8665T4eNC3VDzzXsoV7P/EvondWTpxeyS40=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zMCT5+IaWURyBsattH9EoBdD7ZQUYoWeMyiq+0j42QCE6pRNdcsaWqQm5wjP3gwpsOcQVlLnmsW9fZbNwbZDhPA/pJqqF3RTZv5oSwGJw4NvKM31FOZt3VerNCf5GGR6qj3Sy2awOjyF6SADJwu7KCOmBKNweerzzP+a4LOHIuM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d2ca5a17888c9fc401e451379fe45c35f9992887" Description="" Url=""><as:assemblyIdentity name="SimpleDetector.exe" version="1.0.0.0" publicKeyToken="f3afb2b01f11124f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SHREYKUMARJAIN\SHREY KUMAR JAIN</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3QxL0IheubemG9qb9zXO4T3X5+c=</DigestValue></Reference></SignedInfo><SignatureValue>JVcSDk4CqnnHx6OquAoxzOP2DBsDuFVGe7UsLIaZhcc0ux1j3mRMClDwpg8ssmeOTCCOoQhgnQRwMreVa/qHLkhzR2SLnJJocisTZSVl2D2fqIDrK08mrK/svL+/kvTvbhclTkJFQOWf+XU6hii4NICBOFdRYH+x6l9MwIi+ITU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zMCT5+IaWURyBsattH9EoBdD7ZQUYoWeMyiq+0j42QCE6pRNdcsaWqQm5wjP3gwpsOcQVlLnmsW9fZbNwbZDhPA/pJqqF3RTZv5oSwGJw4NvKM31FOZt3VerNCf5GGR6qj3Sy2awOjyF6SADJwu7KCOmBKNweerzzP+a4LOHIuM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICFTCCAX6gAwIBAgIQOSYmN4iXD7hDldzL5LARkDANBgkqhkiG9w0BAQUFADBJMUcwRQYDVQQDHj4AUwBIAFIARQBZAEsAVQBNAEEAUgBKAEEASQBOAFwAUwBIAFIARQBZACAASwBVAE0AQQBSACAASgBBAEkATjAeFw0xMjEwMDcwNTQxMzZaFw0xMzEwMDcxMTQxMzZaMEkxRzBFBgNVBAMePgBTAEgAUgBFAFkASwBVAE0AQQBSAEoAQQBJAE4AXABTAEgAUgBFAFkAIABLAFUATQBBAFIAIABKAEEASQBOMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMwJPn4hpZRHIGxq20f0SgF0PtlBRihZ4zKKr7SPjZAITqlE11yxpapCbnCM/eDCmw5xBWUueaxb19ls3BtkOE8D+kmqoXdFNm/mhLAYnDg28ozfUU5m3dV6s0J/kYZHqqPdLLZrA6PIXpIAMnC7soI6YEo3B56vPM/5rgs4ci4wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAGFw/e8rvAe1eyBHZg5NRms1pJ02trX3TeuoDdLp9JayBIdbhYpkpkdRGb/bMMw+EuJuTV1WqTauflNPxVJS5i7nqntqnQTAej8/PnPyCWjMwlRlUa+ZP5FZviTyidS41+r0nlnOg1ia71ZQPj7L2UjIQ/4TIjriFlSuKGaRSzRp</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

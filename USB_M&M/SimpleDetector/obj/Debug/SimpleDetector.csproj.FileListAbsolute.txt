@@ -1,0 +1,13 @@
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\bin\Debug\SimpleDetector.exe
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\bin\Debug\SimpleDetector.pdb
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\Dolinay.DetectorForm.resources
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\SimpleDetector.Form1.resources
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\SimpleDetector.Properties.Resources.resources
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\ResGen.read.1.tlog
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\ResGen.write.1.tlog
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\SimpleDetector.exe
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\SimpleDetector.pdb
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\SimpleDetector.Tip.resources
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\SimpleDetector.Password.resources
+C:\Users\SHREY KUMAR JAIN\Downloads\Compressed\usb\2\SimpleDetector\obj\Debug\SimpleDetector.Hidden_Copy.resources
